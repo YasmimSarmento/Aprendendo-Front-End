@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Página Pessoal - Yasmim Cristina Sarmento da Poça</title>
+    <style>
+      body {
+        background: linear-gradient(to bottom right, #030, #a5c5c3);
+
+        font-family: Times new roman, sans-serif;
+
+        text-align: center;
+
+        color: #fff;
+      }
+      table {
+        margin: 0 auto;
+
+        border-collapse: collapse;
+
+        background-color: rgba(255, 255, 255, 0.2);
+      }
+      th,
+      td {
+        padding: 15px;
+        border: 1px solid #006400;
+      }
+      img {
+        border-radius: 15px;
+        margin-top: 15px;
+      }
+      a {
+        color: #ffeaa7;
+        text-decoration: none;
+      }
+      a:hover {
+        text-decoration: underline;
+      }
+      footer {
+        margin-top: 20px;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>Yasmim Cristina Sarmento da Poça</h1>
+
+      <h3>Bem-vindo à minha página, meus queridos!!!!</h3>
+    </header>
+    <main>
+      <section>
+        <h2>SOBRE MIM</h2>
+        <p>
+          Oi oiii! Meu nome é Yasmim, tenho 20 anos e sou estudante de
+          Engenharia de Telecomunicações na Universidade Federal do Pará (UFPA),
+          além de formada como técnica em Marketing.
+          <br />
+          Gosto muito de programação e eletrônica que inclusive participo de um
+          grupo de robótica feminino na faculdade, chamado IAÇÁ.
+        </p>
+      </section>
+      <section>
+        <h2>MEUS HOBBIES</h2>
+        <ul style="list-style: none; padding: 0">
+          <li>Livros de ficção e romance</li>
+          <li>Maratonar série</li>
+          <li>Treinar</li>
+        </ul>
+      </section>
+      <section>
+        <h2>MINHA FOTO</h2>
+        <img
+          src="https://i.postimg.cc/bNKZSysQ/Whats-App-Image-2025-08-10-at-20-11-37.jpg"
+          alt="Minha foto"
+          width="300"
+        />
+      </section>
+      <section>
+        <h2>MINHAS REDES SOCIAIS</h2>
+        <ul style="list-style: none; padding: 0">
+          <li>
+            <a
+              href="https://www.instagram.com/yas.sarmento"
+              target="_blank"
+              rel="noopener"
+              >Instagram</a
+            >
+          </li>
+          <li>
+            <a
+              href="https://www.linkedin.com/in/yasmim-sarmento-7ba049372"
+              target="_blank"
+              rel="noopener"
+              >LinkedIn</a
+            >
+          </li>
+        </ul>
+      </section>
+      <section>
+        <h2>CONTATOS</h2>
+        <form action="#" method="post">
+          <label for="email">E-mail:</label><br />
+          <input
+            type="email"
+            id="email"
+            name="email"
+            value="yasmimcspoca@gmail.com"
+            required
+          /><br /><br />
+          <label for="phone">WhatsApp:</label><br />
+          <input
+            type="tel"
+            id="phone"
+            name="phone"
+            value="(91)98165-4105"
+            required
+          /><br /><br />
+          <label for="message">Mensagem Direta:</label><br />
+          <textarea
+            id="message"
+            name="message"
+            rows="4"
+            cols="50"
+            required
+          ></textarea
+          ><br /><br />
+          <input type="submit" value="Enviar" />
+        </form>
+      </section>
+      <section>
+        <h2>HORÁRIOS DISPONÍVEIS</h2>
+        <table>
+          <thead>
+            <tr>
+              <th>DIA</th>
+              <th>HORAS</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Segunda-Feira</td>
+              <td>08:00 às 12:00</td>
+            </tr>
+            <tr>
+              <td>Terça-Feira</td>
+              <td>08:00 às 12:00</td>
+            </tr>
+            <tr>
+              <td>Quarta-Feira</td>
+              <td>08:00 às 12:00</td>
+            </tr>
+            <tr>
+              <td>Quinta-Feira</td>
+              <td>08:00 às 12:00</td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
+    </main>
+    <footer>
+      <p>
+        &copy; 2025 Yasmim Cristina Sarmento da Poça. Todos os direitos
+        reservados.
+      </p>
+    </footer>
+  </body>
+</html>
